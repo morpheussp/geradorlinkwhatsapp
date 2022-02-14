@@ -52,4 +52,5 @@
     return $url+$phone.value.replace(/\D/g, '')+'&text='+$message.value.replace(/['?a'|\s]+$/g,'?.%20').replace(/\s/g, '%20');
   };
 
+  
 })();
